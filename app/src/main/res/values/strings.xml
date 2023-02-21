@@ -1,0 +1,8 @@
+<resources>
+    <!--    <string name="app_name">EliteContentManagement</string>-->
+    <string name="app_name">Elite</string>
+    <string name="navigation_drawer_open">Open navigtion drawer</string>
+    <string name="navigation_drawer_close">close navigtion drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

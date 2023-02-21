@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuContentCreators"
+            android:icon="@drawable/ic_person"
+            android:title="View Content Creators"/>
+        <item android:id="@+id/menuUsers"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_library_add_24"
+            android:title="View Users"/>
+        <item android:id="@+id/menuApproveContentCreators"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+            android:title="Approve Creators"/>
+
+        <item android:id="@+id/menuApproveContents"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+            android:title="Approve Contents"/>
+
+
+
+
+    </group>
+
+    <item android:title=".">
+        <menu>
+            <item android:id="@+id/customer_nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+
+            <item android:id="@+id/menuLogout"
+                android:icon="@drawable/ic_powe"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+
+</menu>

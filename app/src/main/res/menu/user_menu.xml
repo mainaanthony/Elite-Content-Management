@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuProfile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile"/>
+        <item android:id="@+id/menuAddContent"
+            android:icon="@drawable/ic_baseline_library_add_24"
+            android:title="Add Content"/>
+        <item android:id="@+id/menuMyContents"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+            android:title="My Contents"/>
+        <item android:id="@+id/menuCategories"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="View Categories"/>
+
+        <item android:id="@+id/menuSettings"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+
+        <item android:id="@+id/menuSupport"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:title="Contact Support"/>
+
+
+
+
+    </group>
+
+    <item android:title=".">
+        <menu>
+            <item android:id="@+id/customer_nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+
+            <item android:id="@+id/menuLogout"
+                android:icon="@drawable/ic_powe"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+
+</menu>

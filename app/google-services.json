@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307190937348",
+    "project_id": "elitecontentmanagement-6b009",
+    "storage_bucket": "elitecontentmanagement-6b009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307190937348:android:660c4b2b35a4ff9ea54251",
+        "android_client_info": {
+          "package_name": "com.paulbrian.elitecontentmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307190937348-ug0kur5h7eftd9rc80643stp720dkep3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7VFpDm6LQRYF-N8SCDZ1BSQJ-GibCvvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307190937348-ug0kur5h7eftd9rc80643stp720dkep3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
